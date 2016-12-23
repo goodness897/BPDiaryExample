@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="profile_margin_left">26dp</dimen>
+    <dimen name="profile_margin_top">10dp</dimen>
+    <dimen name="profile_margin_bottom">12dp</dimen>
+    <dimen name="profile_text_size">15sp</dimen>
+    <dimen name="profile_layout_height">45dp</dimen>
+    <dimen name="edit_change_password_width">308dp</dimen>
+    <dimen name="edit_change_password_height">46dp</dimen>
+    <dimen name="edit_shape_radius">100dp</dimen>
+    <dimen name="edit_password_size">16sp</dimen>
+    <dimen name="switch_track_width">51dp</dimen>
+    <dimen name="switch_track_height">21dp</dimen>
+    <dimen name="switch_track_radius">44dp</dimen>
+    <dimen name="switch_thumb_width">28dp</dimen>
+    <dimen name="switch_thumb_height">28dp</dimen>
+    <dimen name="btn_account_width">308dp</dimen>
+    <dimen name="btn_account_height">46dp</dimen>
+    <dimen name="btn_account_radius">100dp</dimen>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_leave"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context="com.compet.bpdiaryexample.profile.LeaveActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:text="탈퇴하기 안내"
+        android:textColor="@color/textColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="아래 내용에 동의하고 정말 탈퇴하시겠습니까?"
+        android:textColor="#f06515"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 혈압다이어리를 탈퇴하시면 프로필, 혈압, 체중(측정, 입력, 백업_ 데이터가 모두 삭제되며 다시 복구할 수 없습니다."
+            android:textColor="#5b5854"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="- 서비스 탈퇴 후 다시 같은 계정으로 가입하시더라도 기존의 데이터는 조회할 수 없습니다."
+            android:textColor="#5b5854"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="- 기기교체나 휴대폰 번호가 변경되어도 기존 스마트폰에서 사용하던 Google 계정을 이용하시면 새로운 기기에서도 데이터를 모두 활용할 수 있습니다."
+            android:textColor="#5b5854"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:paddingBottom="17dp"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="취소"
+                android:textColor="#555053"
+                android:textSize="16sp"
+                android:background="@drawable/btn_shape_not_solid"
+                android:layout_marginRight="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="탈퇴하기"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:background="@drawable/btn_shape_solid"
+                android:layout_marginLeft="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

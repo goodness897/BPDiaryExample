@@ -31,7 +31,7 @@
         android:paddingStart="26dp">
 
         <ImageView
-            android:id="@+id/img_facebook"
+            android:id="@+id/img_alarm_medicine"
             android:layout_marginBottom="12dp"
             android:layout_width="20dp"
             android:layout_height="20dp"
@@ -39,7 +39,7 @@
             android:layout_marginTop="12dp"
             android:src="@drawable/ic_ex_menu_sns_facebook" />
         <TextView
-            android:layout_toRightOf="@+id/img_facebook"
+            android:layout_toRightOf="@+id/img_alarm_medicine"
             android:id="@+id/text_account_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_alignParentRight="true"
-            android:src="@drawable/ic_device_list" />
+            android:background="@drawable/ic_device_list" />
 
 
     </RelativeLayout>

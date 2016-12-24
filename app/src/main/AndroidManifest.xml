@@ -36,7 +36,10 @@
         <activity android:name=".UpdateHeightActivity" />
         <activity android:name=".profile.BirthActivity" />
         <activity android:name=".OnlineShopActivity" />
-        <activity android:name=".NotiActivity"></activity>
+        <activity android:name=".NotiActivity" />
+        <activity android:name=".SettingGoalActivity" />
+        <activity android:name=".AlarmActivity" />
+        <activity android:name=".AlarmMedicineActivity"></activity>
     </application>
 
 </manifest>

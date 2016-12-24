@@ -15,4 +15,6 @@
 
     <color name="textColor">#222222</color>
     <color name="selectorStrokeColor">#979797</color>
+
+    <color name="lineColor">#efebe6</color>
 </resources>

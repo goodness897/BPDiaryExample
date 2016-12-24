@@ -73,12 +73,12 @@ public class ExtendActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 3:
-                        intent = new Intent(ExtendActivity.this, ConnectDeviceActivity.class);
+                        intent = new Intent(ExtendActivity.this, SettingGoalActivity.class);
                         startActivity(intent);
                         break;
 
                     case 4:
-                        intent = new Intent(ExtendActivity.this, ConnectDeviceActivity.class);
+                        intent = new Intent(ExtendActivity.this, AlarmActivity.class);
                         startActivity(intent);
                         break;
 

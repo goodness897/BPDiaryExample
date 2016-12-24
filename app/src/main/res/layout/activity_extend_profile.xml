@@ -28,9 +28,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/profile_margin_bottom"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/profile_margin_left"
-            android:layout_marginTop="@dimen/profile_margin_top"
             android:text="이름"
             android:textColor="#000000"
             android:textSize="@dimen/profile_text_size" />
@@ -38,9 +37,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
+            android:layout_centerVertical="true"
             android:layout_marginRight="10.2dp"
-            android:layout_marginTop="11dp"
             android:layout_toLeftOf="@+id/ic_right_arrow"
             android:text="홍길동"
             android:textColor="#b4b1b1"
@@ -51,10 +49,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_gravity="end"
-            android:layout_marginBottom="15.2dp"
             android:layout_marginRight="27.2dp"
-            android:layout_marginTop="15.2dp"
             android:src="@drawable/ic_device_list" />
 
     </RelativeLayout>
@@ -67,7 +64,6 @@
 
     <RelativeLayout
         android:id="@+id/layout_birth"
-
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:background="@color/white">
@@ -75,9 +71,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/profile_margin_bottom"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/profile_margin_left"
-            android:layout_marginTop="@dimen/profile_margin_top"
+
             android:text="생년월일"
             android:textColor="#000000"
             android:textSize="@dimen/profile_text_size" />
@@ -85,9 +81,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
+            android:layout_centerVertical="true"
             android:layout_marginRight="10.2dp"
-            android:layout_marginTop="11dp"
             android:layout_toLeftOf="@+id/ic_right_arrow2"
             android:text="1983.08.31"
             android:textColor="#b4b1b1"
@@ -98,10 +93,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_gravity="end"
-            android:layout_marginBottom="15.2dp"
             android:layout_marginRight="27.2dp"
-            android:layout_marginTop="15.2dp"
+
             android:src="@drawable/ic_device_list" />
 
     </RelativeLayout>
@@ -121,9 +116,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/profile_margin_bottom"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/profile_margin_left"
-            android:layout_marginTop="@dimen/profile_margin_top"
             android:text="성별"
             android:textColor="#000000"
             android:textSize="15sp" />
@@ -131,9 +125,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
+            android:layout_centerVertical="true"
             android:layout_marginRight="10.2dp"
-            android:layout_marginTop="11dp"
             android:layout_toLeftOf="@+id/ic_right_arrow3"
             android:text="남자"
             android:textColor="#b4b1b1"
@@ -144,10 +137,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_gravity="end"
-            android:layout_marginBottom="15.2dp"
             android:layout_marginRight="27.2dp"
-            android:layout_marginTop="15.2dp"
             android:src="@drawable/ic_device_list" />
 
     </RelativeLayout>
@@ -167,9 +159,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/profile_margin_bottom"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/profile_margin_left"
-            android:layout_marginTop="@dimen/profile_margin_top"
             android:text="키"
             android:textColor="#000000"
             android:textSize="15sp" />
@@ -177,9 +168,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
+            android:layout_centerVertical="true"
             android:layout_marginRight="10.2dp"
-            android:layout_marginTop="11dp"
             android:layout_toLeftOf="@+id/ic_right_arrow4"
             android:text="179cm"
             android:textColor="#b4b1b1"
@@ -190,10 +180,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_gravity="end"
-            android:layout_marginBottom="15.2dp"
             android:layout_marginRight="27.2dp"
-            android:layout_marginTop="15.2dp"
             android:src="@drawable/ic_device_list" />
 
     </RelativeLayout>
@@ -213,9 +202,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/profile_margin_bottom"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/profile_margin_left"
-            android:layout_marginTop="@dimen/profile_margin_top"
             android:text="비밀번호"
             android:textColor="#000000"
             android:textSize="15sp" />
@@ -223,9 +211,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
+            android:layout_centerVertical="true"
             android:layout_marginRight="10.2dp"
-            android:layout_marginTop="11dp"
             android:layout_toLeftOf="@+id/ic_right_arrow5"
             android:text="변경"
             android:textColor="#b4b1b1"
@@ -236,10 +223,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_gravity="end"
-            android:layout_marginBottom="15.2dp"
             android:layout_marginRight="27.2dp"
-            android:layout_marginTop="15.2dp"
             android:src="@drawable/ic_device_list" />
 
     </RelativeLayout>
@@ -259,9 +245,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/profile_margin_bottom"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/profile_margin_left"
-            android:layout_marginTop="@dimen/profile_margin_top"
             android:text="당뇨관리"
             android:textColor="#000000"
             android:textSize="15sp" />
@@ -269,9 +254,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
+            android:layout_centerVertical="true"
             android:layout_marginRight="10.2dp"
-            android:layout_marginTop="11dp"
             android:layout_toLeftOf="@+id/ic_right_arrow6"
             android:text="사용안함"
             android:textColor="#b4b1b1"
@@ -282,10 +266,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_gravity="end"
-            android:layout_marginBottom="15.2dp"
             android:layout_marginRight="27.2dp"
-            android:layout_marginTop="15.2dp"
+
             android:src="@drawable/ic_device_list" />
 
     </RelativeLayout>
@@ -305,9 +289,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/profile_margin_bottom"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/profile_margin_left"
-            android:layout_marginTop="@dimen/profile_margin_top"
             android:text="계정"
             android:textColor="#000000"
             android:textSize="15sp" />
@@ -316,9 +299,8 @@
             android:id="@+id/ic_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_centerVertical="true"
             android:layout_marginRight="6dp"
-            android:layout_marginTop="12dp"
             android:layout_toLeftOf="@+id/text_email"
             android:src="@drawable/google" />
 
@@ -326,9 +308,8 @@
             android:id="@+id/text_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
+            android:layout_centerVertical="true"
             android:layout_marginRight="10.2dp"
-            android:layout_marginTop="11dp"
             android:layout_toLeftOf="@+id/ic_right_arrow7"
             android:text="test@google.com"
             android:textColor="#b4b1b1"
@@ -339,10 +320,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_gravity="end"
-            android:layout_marginBottom="15.2dp"
             android:layout_marginRight="27.2dp"
-            android:layout_marginTop="15.2dp"
             android:src="@drawable/ic_device_list" />
 
     </RelativeLayout>

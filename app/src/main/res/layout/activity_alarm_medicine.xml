@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alarm_medicine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context="com.compet.bpdiaryexample.AlarmMedicineActivity">
+
+    <include
+        layout="@layout/toolbar_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_alarm_non" />
+
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/ic_alarm_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView2" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="41dp"
+        android:gravity="center_horizontal"
+        android:text="설정된 알림이 없습니다. \n상단의 +버튼을 눌러 알람을 설정해주세요."
+        android:textColor="#d3d1cb"
+        android:textSize="16sp" />
+
+</LinearLayout>

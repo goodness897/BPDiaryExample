@@ -13,6 +13,7 @@ public class AlarmActivity extends BaseActivity implements View.OnClickListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarm);
         initToolbar("알림");
+
         Switch alarmSwitch = (Switch) findViewById(R.id.switch_alarm);
         alarmSwitch.setVisibility(View.VISIBLE);
 

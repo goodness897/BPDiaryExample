@@ -27,8 +27,7 @@ public class AlarmMedicineActivity extends BaseActivity {
         sp.setSpan(new ForegroundColorSpan(Color.rgb(155, 149, 152)), 19, 22, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         textView.setText(sp);
 
-        ImageView addButton = (ImageView)findViewById(R.id.img_plus);
-        addButton.setOnClickListener(new View.OnClickListener() {
+        plusBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent= new Intent(AlarmMedicineActivity.this, AddAlarmActivity.class);

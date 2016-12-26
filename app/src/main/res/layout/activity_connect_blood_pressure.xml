@@ -26,6 +26,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:includeFontPadding="false"
                 android:textSize="11sp"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
@@ -52,7 +53,7 @@
             android:orientation="horizontal">
 
             <TextView
-
+                android:includeFontPadding="false"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:background="@drawable/text_number_shape"
@@ -79,6 +80,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:includeFontPadding="false"
                 android:textSize="11sp"
                 android:layout_width="16dp"
                 android:layout_height="16dp"

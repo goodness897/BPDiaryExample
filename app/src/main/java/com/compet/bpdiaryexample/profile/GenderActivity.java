@@ -1,6 +1,8 @@
 package com.compet.bpdiaryexample.profile;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.RadioGroup;
 
 import com.compet.bpdiaryexample.BaseActivity;
@@ -27,6 +29,14 @@ public class GenderActivity extends BaseActivity {
 
                 }
 
+            }
+        });
+
+        Button saveButton = (Button)findViewById(R.id.btn_save);
+        saveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
     }

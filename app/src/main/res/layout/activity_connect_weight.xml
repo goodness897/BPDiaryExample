@@ -4,8 +4,8 @@
     android:id="@+id/activity_connect_weight"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/backgroundColor"
+    android:orientation="vertical"
     tools:context="com.compet.bpdiaryexample.ConnectWeightActivity">
 
     <include
@@ -30,6 +30,7 @@
                 android:layout_height="16dp"
                 android:background="@drawable/text_number_shape"
                 android:gravity="center"
+                android:includeFontPadding="false"
                 android:text="1"
                 android:textColor="@color/white"
                 android:textSize="11sp" />
@@ -56,6 +57,7 @@
                 android:layout_height="16dp"
                 android:background="@drawable/text_number_shape"
                 android:gravity="center"
+                android:includeFontPadding="false"
                 android:text="2"
                 android:textColor="@color/white"
                 android:textSize="11sp" />

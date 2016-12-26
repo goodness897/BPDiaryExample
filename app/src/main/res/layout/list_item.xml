@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="@dimen/gridview_image_width"
+        android:layout_height="@dimen/gridview_image_height"
         android:layout_gravity="center"
         android:layout_marginTop="13dp"
         android:src="@mipmap/ic_launcher" />
@@ -20,7 +20,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:textColor="#222222"
-        android:layout_marginBottom="11.5dp"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="12dp"
         android:textSize="15sp" />
 </LinearLayout>

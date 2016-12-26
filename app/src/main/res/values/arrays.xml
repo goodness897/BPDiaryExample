@@ -3,6 +3,26 @@
 <resources>
     <string-array name="height">
         <item >cm</item>
-        <item >inch</item>
+        <item >ft.in</item>
+    </string-array>
+
+    <string-array name="language">
+        <item >English</item>
+        <item >한국어</item>
+        <item >Espanol</item>
+        <item >日本語</item>
+        <item >Deutsch</item>
+        <item >francais</item>
+        <item >Italiano</item>
+    </string-array>
+
+    <string-array name="profile">
+        <item >이름</item>
+        <item >생년월일</item>
+        <item >성별</item>
+        <item >키</item>
+        <item >비밀번호</item>
+        <item >당뇨관리</item>
+        <item >계정</item>
     </string-array>
 </resources>

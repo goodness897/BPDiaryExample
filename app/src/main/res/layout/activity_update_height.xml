@@ -32,24 +32,72 @@
             android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
-            <EditText
+            <LinearLayout
+                android:id="@+id/layout_cm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/edit_profile_shape" />
+                tools:visibility="gone">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_profile_shape"
+                    android:gravity="center"
+                    android:hint="키"
+                    android:textColor="#313131"
+                    android:textColorHint="#bab9b9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_inch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <EditText
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_profile_shape"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textColor="#313131" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="\u05f3"
+                    android:textColor="#313131"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:background="@drawable/edit_profile_shape"
+                    android:gravity="center"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="\u05f4"
+                    android:textColor="#313131"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
             <Spinner
-
+                android:id="@+id/spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="21dp"
                 android:layout_marginTop="11dp"
                 android:entries="@array/height">
 
             </Spinner>
 
-
         </LinearLayout>
-
 
     </LinearLayout>
 

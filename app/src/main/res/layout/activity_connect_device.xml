@@ -2,187 +2,171 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_connect_device"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
     tools:context="com.compet.bpdiaryexample.profile.ConnectDeviceActivity">
 
     <include
+        layout="@layout/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        layout="@layout/toolbar"/>
+        android:layout_height="50dp" />
 
     <View
-        android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_marginTop="8dp"
         android:background="#efebe6" />
-
 
     <RelativeLayout
         android:id="@+id/layout_pressure"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="44dp"
         android:background="@color/white"
+        android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="26dp"
         android:paddingRight="27dp"
         android:paddingStart="26dp">
 
         <TextView
-            android:layout_toRightOf="@+id/img_alarm_medicine"
+
             android:id="@+id/text_account_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginBottom="13dp"
+            android:layout_toRightOf="@+id/img_alarm_medicine"
             android:text="혈압계"
             android:textColor="#2b2729"
             android:textSize="15sp" />
 
         <TextView
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="11dp"
-            android:layout_toLeftOf="@+id/ic_arrow"
-            android:text="선택 안 됨"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/ic_arrow"
+            android:text="선택 안 됨" />
 
         <ImageView
             android:id="@+id/ic_arrow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
             android:layout_alignParentRight="true"
-            android:src="@drawable/ic_device_list" />
+            android:background="@drawable/ic_device_list" />
 
         <ImageView
             android:id="@+id/img_alarm_medicine"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:src="@drawable/ic_expandmenu_device_bp"
-            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_expandmenu_device_bp" />
 
     </RelativeLayout>
 
     <View
-        android:layout_marginLeft="22dp"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_marginLeft="22dp"
         android:background="#efebe6" />
 
     <RelativeLayout
 
+        android:id="@+id/layout_weight"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="44dp"
         android:background="@color/white"
+        android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="26dp"
         android:paddingRight="27dp"
         android:paddingStart="26dp">
 
         <TextView
-            android:layout_toRightOf="@+id/img_weight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginBottom="13dp"
+            android:layout_toRightOf="@+id/img_weight"
             android:text="체중계"
             android:textColor="#2b2729"
             android:textSize="15sp" />
 
         <TextView
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="11dp"
-            android:layout_toLeftOf="@+id/ic_arrow2"
-            android:text="선택 안 됨"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/ic_arrow2"
+            android:text="선택 안 됨" />
 
         <ImageView
             android:id="@+id/ic_arrow2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
             android:layout_alignParentRight="true"
-            android:src="@drawable/ic_device_list" />
+            android:background="@drawable/ic_device_list" />
 
         <ImageView
             android:id="@+id/img_weight"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:src="@drawable/ic_expandmenu_device_weight"
-            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_expandmenu_device_weight" />
 
 
     </RelativeLayout>
 
     <View
-        android:layout_marginLeft="22dp"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_marginLeft="22dp"
         android:background="#efebe6" />
 
     <RelativeLayout
 
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="44dp"
         android:background="@color/white"
+        android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="26dp"
         android:paddingRight="27dp"
         android:paddingStart="26dp">
 
         <TextView
-            android:layout_toRightOf="@+id/img_bs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginBottom="13dp"
+            android:layout_toRightOf="@+id/img_bs"
             android:text="혈당계"
             android:textColor="#2b2729"
             android:textSize="15sp" />
 
         <TextView
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="11dp"
-            android:layout_toLeftOf="@+id/ic_arrow3"
-            android:text="선택 안 됨"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/ic_arrow3"
+            android:text="선택 안 됨" />
 
         <ImageView
             android:id="@+id/ic_arrow3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
             android:layout_alignParentRight="true"
-            android:src="@drawable/ic_device_list" />
+            android:background="@drawable/ic_device_list" />
 
         <ImageView
             android:id="@+id/img_bs"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:src="@drawable/ic_expandmenu_device_bs"
-            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_expandmenu_device_bs" />
     </RelativeLayout>
 
     <View

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/backgroundColor"
-    tools:context="com.compet.bpdiaryexample.NotiActivity">
+    tools:context="com.compet.bpdiaryexample.NoticeActivity">
 
     <include
         layout="@layout/toolbar"

@@ -51,8 +51,7 @@
                 android:textSize="11sp" />
         </LinearLayout>
 
-        <ImageButton
-
+        <ImageView
             android:id="@+id/img_profile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -61,8 +60,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="20dp"
             android:layout_marginTop="22dp"
-            android:background="@null"
-            android:src="@drawable/btn_list_edit_nor" />
+            android:background="@drawable/btn_list_edit_nor" />
 
     </RelativeLayout>
 
@@ -92,6 +90,7 @@
 
 
     <RelativeLayout
+        android:gravity="center_vertical"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:background="#ffffff">
@@ -99,9 +98,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
             android:layout_marginLeft="26dp"
-            android:layout_marginTop="10dp"
             android:text="광고제거"
             android:textColor="#000000"
             android:textSize="15sp" />
@@ -111,9 +108,7 @@
             android:layout_height="13.7dp"
             android:layout_alignParentRight="true"
             android:layout_gravity="end"
-            android:layout_marginBottom="15.2dp"
             android:layout_marginRight="27.2dp"
-            android:layout_marginTop="15.2dp"
             android:src="@drawable/ic_device_list" />
 
     </RelativeLayout>
@@ -125,6 +120,7 @@
         android:background="#efebe6" />
 
     <RelativeLayout
+        android:gravity="center_vertical"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:background="#ffffff">
@@ -132,9 +128,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
             android:layout_marginLeft="26dp"
-            android:layout_marginTop="11dp"
             android:text="법적내용"
             android:textColor="#000000"
             android:textSize="15sp" />
@@ -144,9 +138,7 @@
             android:layout_height="13.7dp"
             android:layout_alignParentRight="true"
             android:layout_gravity="end"
-            android:layout_marginBottom="15.2dp"
             android:layout_marginRight="27.2dp"
-            android:layout_marginTop="15.2dp"
             android:src="@drawable/ic_device_list" />
 
     </RelativeLayout>

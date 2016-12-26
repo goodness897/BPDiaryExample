@@ -1,27 +1,39 @@
 package com.compet.bpdiaryexample;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.AdapterView;
+import android.widget.LinearLayout;
+import android.widget.Spinner;
 
-public class UpdateHeightActivity extends AppCompatActivity {
+public class UpdateHeightActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_height);
 
-        ImageView imageButton = (ImageView)findViewById(R.id.btn_navi_back);
-        imageButton.setOnClickListener(new View.OnClickListener() {
+        initToolbar("키");
+
+        final LinearLayout cmLayout = (LinearLayout)findViewById(R.id.layout_cm);
+        final LinearLayout inchLayout = (LinearLayout)findViewById(R.id.layout_inch);
+        Spinner spinner = (Spinner)findViewById(R.id.spinner);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                if(position == 0) {
+                    cmLayout.setVisibility(View.VISIBLE);
+                    inchLayout.setVisibility(View.GONE);
+                } else if(position == 1) {
+                    cmLayout.setVisibility(View.GONE);
+                    inchLayout.setVisibility(View.VISIBLE);
+                }
+            }
 
             @Override
-            public void onClick(View view) {
-                finish();
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
             }
         });
-        TextView titleView = (TextView)findViewById(R.id.toolbar_title);
-        titleView.setText("키");
     }
 }

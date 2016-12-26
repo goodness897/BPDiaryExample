@@ -16,15 +16,14 @@
         android:textColor="#2b2729"
         android:textSize="17sp" />
 
-    <DatePicker
+    <com.compet.bpdiaryexample.CustomDatePicker
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="@color/white"
-        android:calendarViewShown="false"
-        android:datePickerMode="spinner">
-
-    </DatePicker>
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false">
+    </com.compet.bpdiaryexample.CustomDatePicker>
 
     <View
         android:layout_width="match_parent"
@@ -47,12 +46,14 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="40dp"
             android:text="취소"
+            android:textColor="#868586"
             android:textSize="16sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="확인"
+            android:textColor="@color/textColor"
             android:textSize="16sp" />
 
     </LinearLayout>

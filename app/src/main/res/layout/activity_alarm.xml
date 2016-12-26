@@ -9,7 +9,7 @@
     tools:context="com.compet.bpdiaryexample.AlarmActivity">
 
     <include
-        layout="@layout/toolbar_alarm"
+        layout="@layout/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 

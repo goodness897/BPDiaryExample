@@ -9,9 +9,17 @@
     tools:context="com.compet.bpdiaryexample.AlarmMedicineActivity">
 
     <include
-        layout="@layout/toolbar_alarm"
+        layout="@layout/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -31,8 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:id="@+id/imageView2" />
+            android:layout_alignParentRight="true" />
 
     </RelativeLayout>
 

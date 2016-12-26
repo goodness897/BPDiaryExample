@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="키를 입력해주세요."
+            android:text="생년월일을 입력해주세요."
             android:textColor="@color/black"
             android:textSize="13sp" />
 
@@ -36,7 +36,6 @@
             android:layout_marginTop="15dp"
             android:background="@drawable/edit_profile_shape"
             android:gravity="center"
-            android:inputType="date"
             android:text="생년월일"
             android:textColor="@color/hintColor" />
 

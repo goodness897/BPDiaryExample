@@ -69,7 +69,7 @@ public class ExtendActivity extends AppCompatActivity {
                         break;
 
                     case 2:
-                        intent = new Intent(ExtendActivity.this, NotiActivity.class);
+                        intent = new Intent(ExtendActivity.this, NoticeActivity.class);
                         startActivity(intent);
                         break;
                     case 3:
@@ -83,7 +83,7 @@ public class ExtendActivity extends AppCompatActivity {
                         break;
 
                     case 5:
-                        intent = new Intent(ExtendActivity.this, ConnectDeviceActivity.class);
+                        intent = new Intent(ExtendActivity.this, LanguageActivity.class);
                         startActivity(intent);
                         break;
 

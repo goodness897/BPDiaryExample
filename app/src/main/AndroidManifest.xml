@@ -16,9 +16,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".BloodPressureActivity" />
-        <activity
-            android:name=".FrameLayoutExampleActivity"
-            android:exported="true" />
         <activity android:name=".MainActivity" />
         <activity android:name=".profile.ExtendProfileActivity" />
         <activity android:name=".profile.NameActivity" />
@@ -36,10 +33,13 @@
         <activity android:name=".UpdateHeightActivity" />
         <activity android:name=".profile.BirthActivity" />
         <activity android:name=".OnlineShopActivity" />
-        <activity android:name=".NotiActivity" />
+        <activity android:name=".NoticeActivity" />
         <activity android:name=".SettingGoalActivity" />
         <activity android:name=".AlarmActivity" />
-        <activity android:name=".AlarmMedicineActivity"></activity>
+        <activity android:name=".AlarmMedicineActivity" />
+        <activity android:name=".LanguageActivity" />
+        <activity android:name=".AddAlarmActivity" />
+        <activity android:name=".BaseActivity"></activity>
     </application>
 
 </manifest>

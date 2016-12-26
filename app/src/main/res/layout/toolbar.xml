@@ -2,15 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="50dp"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/colorPrimary">
 
-    <ImageView
-        android:id="@+id/btn_navi_back"
-        android:layout_width="9dp"
-        android:layout_height="15dp"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="22dp"
-        android:background="@drawable/btn_navi_back_nor" />
+    <LinearLayout
+        android:id="@+id/layout_navi_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp">
+
+        <ImageView
+            android:id="@+id/btn_navi_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_navi_back" />
+
+    </LinearLayout>
+
 
     <TextView
         android:id="@+id/toolbar_title"
@@ -29,5 +39,28 @@
         android:layout_height="1dp"
         android:layout_alignParentBottom="true"
         android:background="@color/toolbarLine" />
+
+    <Switch
+        android:visibility="gone"
+        android:layout_marginRight="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/switch_thumb_selector"
+        android:track="@drawable/switch_track_selector"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/switch_alarm" />
+
+    <ImageView
+
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:layout_marginRight="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_add_alarm"
+        android:layout_centerVertical="true"
+        android:id="@+id/img_plus" />
 
 </RelativeLayout>

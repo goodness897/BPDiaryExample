@@ -19,4 +19,6 @@
     <dimen name="btn_account_width">308dp</dimen>
     <dimen name="btn_account_height">46dp</dimen>
     <dimen name="btn_account_radius">100dp</dimen>
+    <dimen name="gridview_image_width">48dp</dimen>
+    <dimen name="gridview_image_height">48dp</dimen>
 </resources>
